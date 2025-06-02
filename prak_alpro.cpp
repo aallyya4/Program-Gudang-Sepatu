@@ -393,10 +393,10 @@ void update() {
     cout << "+------------------------------------------------------------------+\n";
     for (int i = 0; i < jumlah; i++) {
         cout << "| " << setw(2) << i + 1 << " | "
-             << setw(16) << left << daftarsepatu[i].nama << " | "
-             << setw(9) << daftarsepatu[i].kode << " | "
-             << setw(13) << left << daftarsepatu[i].harga << " | "
-             << setw(11) << right << daftarsepatu[i].stok << "  |\n";
+             << setw(16) << left << daftarsort[i].nama << " | "
+             << setw(9) << daftarsort[i].kode << " | "
+             << setw(13) << left << daftarsort[i].harga << " | "
+             << setw(11) << right << daftarsort[i].stok << "  |\n";
     }
     cout << "+------------------------------------------------------------------+\n";
 
