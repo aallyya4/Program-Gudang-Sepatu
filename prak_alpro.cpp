@@ -362,10 +362,10 @@ void sort(){
             cout << "+------------------------------------------------------------------+\n";
             for (int i = 0; i < jumlah; i++){
                cout << "| " << setw(2) << i + 1 << " | "
-                 << setw(16) << left << daftarsepatu[i].nama << " | "
-                 << setw(9) << daftarsepatu[i].kode << " | "
-                 << setw(13) << daftarsepatu[i].harga << " | "
-                 << setw(11) << daftarsepatu[i].stok << " |\n";
+                 << setw(16) << left << daftarsort[i].nama << " | "
+                 << setw(9) << daftarsort[i].kode << " | "
+                 << setw(13) << daftarsort[i].harga << " | "
+                 << setw(11) << daftarsort[i].stok << " |\n";
             }
         cout << "+------------------------------------------------------------------+\n\n";
     }while (sort1 > 4 || sort1 < 1);    
